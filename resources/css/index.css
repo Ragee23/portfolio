@@ -1,0 +1,40 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+li{
+  list-style: none;
+}
+
+body{
+  width: 80%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2rem;
+}
+
+main{
+  background-image: url("https://media.giphy.com/media/xT9IgN8YKRhByRBzMI/giphy.gif");
+  width: auto;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: relative; */
+  background-attachment: fixed;
+  background-position: center;
+}
+
+main h1, h3{
+  text-align: center;
+  position: fixed;
+}
+
+footer{
+  background-color: grey;
+}
+
+.colums{
+  display: flex;
+}
